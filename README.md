@@ -1,5 +1,7 @@
 # AI CUDA Projects
 
+![CUDA AI](assets/CUDA_AI.png)
+
 A collection of practical projects, experiments, benchmarks, and optimization techniques for accelerating **AI and deep learning workloads with CUDA and PyTorch**.
 
 The goal of this repository is simple: **understand where performance is lost, measure it, optimize it, and verify the improvement.**
@@ -14,45 +16,45 @@ This repository brings together hands-on projects covering GPU acceleration and 
 
 ### 🖥️ GPU & CUDA
 
-* CUDA environment setup
-* GPU and device inspection
-* CPU vs GPU execution
-* CUDA tensor operations
-* GPU memory management
-* CUDA kernels
-* GPU utilization
+- CUDA environment setup
+- GPU and device inspection
+- CPU vs GPU execution
+- CUDA tensor operations
+- GPU memory management
+- CUDA kernels
+- GPU utilization
 
 ### ⚡ PyTorch Optimization
 
-* Host-to-Device transfers
-* Pinned memory
-* Asynchronous transfers
-* DataLoader optimization
-* Multiprocess data loading
-* Batch-size tuning
-* Mixed precision and AMP
-* Tensor Cores
-* Memory optimization
+- Host-to-Device transfers
+- Pinned memory
+- Asynchronous transfers
+- DataLoader optimization
+- Multiprocess data loading
+- Batch-size tuning
+- Mixed precision and AMP
+- Tensor Cores
+- Memory optimization
 
 ### 🔬 Profiling & Benchmarking
 
-* PyTorch Profiler
-* TensorBoard
-* CUDA performance analysis
-* CPU vs GPU comparisons
-* Kernel-level analysis
-* Memory profiling
-* Training-time benchmarks
-* Speedup and throughput measurements
+- PyTorch Profiler
+- TensorBoard
+- CUDA performance analysis
+- CPU vs GPU comparisons
+- Kernel-level analysis
+- Memory profiling
+- Training-time benchmarks
+- Speedup and throughput measurements
 
 ### 🌐 Multi-GPU & Distributed Computing
 
-* Data Parallelism
-* Model Parallelism
-* Multi-GPU training
-* Distributed training
-* Communication overhead
-* Scalability experiments
+- Data Parallelism
+- Model Parallelism
+- Multi-GPU training
+- Distributed training
+- Communication overhead
+- Scalability experiments
 
 ---
 
@@ -108,15 +110,15 @@ A complete CNN training pipeline is progressively optimized from CPU execution t
 
 Topics include:
 
-* GPU acceleration
-* Host-to-Device transfers
-* Pinned memory
-* Asynchronous transfers
-* Batch-size optimization
-* DataLoader workers
-* Mixed precision
-* Profiling
-* Performance benchmarking
+- GPU acceleration
+- Host-to-Device transfers
+- Pinned memory
+- Asynchronous transfers
+- Batch-size optimization
+- DataLoader workers
+- Mixed precision
+- Profiling
+- Performance benchmarking
 
 ### Project 02 — Distributed Training
 
@@ -124,12 +126,12 @@ Exploration of multi-GPU training and distributed execution.
 
 Topics include:
 
-* Data Parallelism
-* Model Parallelism
-* Multi-GPU execution
-* Synchronization
-* Communication overhead
-* Scalability
+- Data Parallelism
+- Model Parallelism
+- Multi-GPU execution
+- Synchronization
+- Communication overhead
+- Scalability
 
 Additional projects and experiments can be added as the repository evolves.
 
@@ -195,11 +197,11 @@ This approach helps distinguish genuine improvements from measurement noise or c
 
 Experiments can be performed using:
 
-* Local NVIDIA GPUs
-* Google Colab
-* Kaggle
-* CUDA-enabled Linux systems
-* CUDA-enabled Windows systems
+- Local NVIDIA GPUs
+- Google Colab
+- Kaggle
+- CUDA-enabled Linux systems
+- CUDA-enabled Windows systems
 
 Hardware-dependent results are expected to vary.
 
@@ -217,17 +219,17 @@ This repository is intended to evolve through experiments, improvements, and con
 
 You can contribute by:
 
-* Improving existing notebooks
-* Fixing bugs
-* Refactoring code
-* Adding new CUDA optimizations
-* Improving benchmarks
-* Adding profiling experiments
-* Testing on different GPUs
-* Improving documentation
-* Adding new models or datasets
-* Implementing new distributed-training strategies
-* Comparing different optimization techniques
+- Improving existing notebooks
+- Fixing bugs
+- Refactoring code
+- Adding new CUDA optimizations
+- Improving benchmarks
+- Adding profiling experiments
+- Testing on different GPUs
+- Improving documentation
+- Adding new models or datasets
+- Implementing new distributed-training strategies
+- Comparing different optimization techniques
 
 ### 💡 Looking for an idea?
 
@@ -278,13 +280,13 @@ Finally, open a **Pull Request**.
 
 When submitting a performance optimization, please include:
 
-* What was changed
-* Why it should improve performance
-* Hardware used
-* Software/CUDA version
-* Benchmark methodology
-* Before/after results
-* Any observed trade-offs
+- What was changed
+- Why it should improve performance
+- Hardware used
+- Software/CUDA version
+- Benchmark methodology
+- Before/after results
+- Any observed trade-offs
 
 This makes the contribution reproducible and easier to evaluate.
 
@@ -327,17 +329,17 @@ Good documentation should explain not only **what** an optimization does, but al
 
 Performance results depend on many factors:
 
-* GPU architecture
-* GPU memory
-* CUDA version
-* PyTorch version
-* Driver version
-* Batch size
-* Dataset
-* Model architecture
-* DataLoader configuration
-* Background processes
-* Thermal conditions
+- GPU architecture
+- GPU memory
+- CUDA version
+- PyTorch version
+- Driver version
+- Batch size
+- Dataset
+- Model architecture
+- DataLoader configuration
+- Background processes
+- Thermal conditions
 
 For this reason, benchmark results should always include enough information to reproduce the experiment.
 
